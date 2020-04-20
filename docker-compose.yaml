@@ -5,7 +5,7 @@ x-extra_hosts:
   # configure the transmission client url as http://pi:9091
   &pi
   # Change this to IP of your RPi
-  - "pi:192.168.4.4"
+  - "pi:10.0.0.252"
 services:
   # All the services use docker bind mounts to store config data and media on the host's filesystem. If you're familiar with
   # docker storage, you can use whatever you want. You can change it to use docker volumes if you want.
